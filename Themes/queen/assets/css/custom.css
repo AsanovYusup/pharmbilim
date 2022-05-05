@@ -1,0 +1,40 @@
+._over_hidden{
+  overflow: hidden;
+}
+.dataTables_length {
+  margin: 20px 0;
+}
+
+.dataTables_length .form-control {
+    margin: 0 0 0 10px;
+}
+
+.dataTables_filter {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.invalid-feedback p {
+  margin-bottom: 5px;
+}
+
+.dt-buttons{
+  margin-left: 20px;
+}
+
+.answer_validation .custom-checkbox .custom-control-input.is-valid:disabled:checked ~ .custom-control-label::before {
+    background-color: #37e2d0;
+}
+
+.answer_validation .custom-control-input.is-valid:checked ~ .custom-control-label::before {
+    background-color: #37e2d0;
+}
+
+.answer_validation .custom-checkbox .custom-control-input.is-invalid:disabled:checked ~ .custom-control-label::before {
+    background-color: #fd3995;
+}
+
+.answer_validation .custom-control-input.is-invalid:checked ~ .custom-control-label::before {
+    background-color: #fd3995;
+}
+
